@@ -16,8 +16,8 @@ class Game:
         self.clock = pygame.time.Clock()
         self.losing_scene = Flash(0,0,WIDTH,HEIGHT,WHITE,3,self.screen)
         self.buttons = []
-        for i in range(30,151,60): #451
-            for a in range(20,161,60): #561 
+        for i in range(30,451,60): #451
+            for a in range(20,561,60): #561 
                 self.buttons.append(Button(a,i,DARKGREEN))
 
 
